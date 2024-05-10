@@ -2,7 +2,7 @@ module.exports = {
     input: 'src/source/index.js',
     output: {
         file: 'dist/umd/index.js',
-        name: 'FP',
+        name: 'f',
         exports: 'named',
         format: 'umd'
     }
