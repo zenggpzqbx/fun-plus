@@ -1,3 +1,10 @@
+/**
+ *
+ * @param  callbackFun - 回调函数
+ * @param  interval - 时间间隔，单位毫秒
+ * @param  immediate - 是否立即执行
+ * @returns
+ */
 function throttle(callbackFun, interval, immediate = false) {
     let startTime = null;
     let timeoutId = null;

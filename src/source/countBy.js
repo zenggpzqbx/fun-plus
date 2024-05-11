@@ -1,7 +1,7 @@
 /**
  * 这是一个计数函数
- * @param {*} data
- * @param {*} callback
+ * @param  data - [{zmb:'123'}, {zmb:'123'}, {zmb:'12344'}]
+ * @param  callback
  * @returns
  */
 function countBy(data, callback) {
