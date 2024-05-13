@@ -28,6 +28,9 @@ pick({name:'abc', age:28, sex:'男'}, 'name')
 
 pick({name:'abc', age:28, sex:'男'}, ['name', 'age'])
 // => { 'name': 'abc', 'age': 28 }
+
+pick({name:'abc', age:28, sex:'男', true}, ['name', 'age'])
+// => ['abc',28 ]
 ```
 # debounce
 ```javascript
